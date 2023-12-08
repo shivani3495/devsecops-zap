@@ -10,7 +10,7 @@ steps:
       mkdir zap
       tar -xvf ZAP_2.11.1_Linux.tar.gz
       cd ZAP_2.11.1
-      ./zap.sh -cmd -quickurl https://www.trucklots.com -quickprogress -quickout /home/vsts/work/1/a/zap_report.html 
+      ./zap.sh -cmd -quickurl https://trucklots.com -quickprogress -quickout /home/vsts/work/1/a/zap_report.html 
   displayName: "Integrate DAST scan using OWASP ZAP in ADO DevSecOps Pipeline"
 
 - task: PublishBuildArtifacts@1
